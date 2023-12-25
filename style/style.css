@@ -28,7 +28,6 @@ h4 {
   font-family: "Roboto", sans-serif;
   font-size: 25px;
   color: #274C5B;
-  padding-left: 20px;
 }
 
 header {
@@ -66,11 +65,13 @@ header {
 }
 
 .banner {
+  background-color: #F1EFF0;
+  background-image: url(/style/bannerback.png);
+  background-size: 87vw;
+  background-repeat: no-repeat;
   display: grid;
   grid-template-columns: repeat 2, 1fr;
   grid-template-rows: 1fr;
-  background-color: #F1EFF0;
-  background-image: url(images/BannerBackground.png);
 }
 
 .slogan {
@@ -124,11 +125,19 @@ header {
 }
 
 .organicpromo {
-  display: flex;
-  justify-content: center;
-  padding-top: 45px;
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  grid-template-rows: repeat 3, 1fr;
+}
+
+.promotext {
+  display: grid;
+  grid-column: 2/3;
+  width: 444px;
 }
 
 .certif {
-  display: flex;
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  grid-template-rows: repeat 3, 1fr;
 }/*# sourceMappingURL=style.css.map */
