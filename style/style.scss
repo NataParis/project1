@@ -16,6 +16,9 @@ header {
     display: flex;
     gap: 1rem;
 }
+.logopic {
+    width: 36px;
+}
 .nav {
     display: flex;
     gap: 25px;
@@ -30,6 +33,12 @@ header {
 }
 .search {
     padding-left: 150px;
+}
+.searchfield {
+    width:375px;
+}
+.cartpic {
+    width:160px;
 }
 .banner {
     background-color:#F1EFF0;
@@ -55,6 +64,9 @@ grid-column: 2/3;
 
 .knop {
     padding-top: 23px;
+}
+.btnpic {
+    width:220px;
 }
 
 .centralpics {
@@ -94,7 +106,9 @@ grid-column: 2/3;
     display: grid;
     grid-column: 2/3;
     width: 444px;
-   
+   }
+   .promoicon {
+    width: 101px;
    }
 .certif {
 display: grid;

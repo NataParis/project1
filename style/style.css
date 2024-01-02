@@ -267,6 +267,10 @@ header {
   gap: 1rem;
 }
 
+.logopic {
+  width: 36px;
+}
+
 .nav {
   display: flex;
   gap: 25px;
@@ -283,6 +287,14 @@ header {
 
 .search {
   padding-left: 150px;
+}
+
+.searchfield {
+  width: 375px;
+}
+
+.cartpic {
+  width: 160px;
 }
 
 .banner {
@@ -310,6 +322,10 @@ header {
 
 .knop {
   padding-top: 23px;
+}
+
+.btnpic {
+  width: 220px;
 }
 
 .centralpics {
@@ -354,6 +370,10 @@ header {
   display: grid;
   grid-column: 2/3;
   width: 444px;
+}
+
+.promoicon {
+  width: 101px;
 }
 
 .certif {
