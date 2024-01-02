@@ -58,6 +58,7 @@ h4 {
   box-sizing: border-box;
 }
 
+/* Header Styles */
 header {
   display: flex;
   align-items: center;
@@ -72,6 +73,10 @@ header {
   color: #274C5B;
   display: flex;
   gap: 1rem;
+}
+
+.logopic {
+  width: 36px;
 }
 
 .nav {
@@ -92,6 +97,15 @@ header {
   padding-left: 150px;
 }
 
+.searchfield {
+  width: 375px;
+}
+
+.cartpic {
+  width: 160px;
+}
+
+/*Header End*/
 .banner {
   background-color: #F1EFF0;
   background-image: url(/assets/images/bannerback.png);
@@ -117,6 +131,10 @@ header {
 
 .knop {
   padding-top: 23px;
+}
+
+.btnpic {
+  width: 220px;
 }
 
 .centralpics {
@@ -163,6 +181,10 @@ header {
   width: 444px;
 }
 
+.promoicon {
+  width: 101px;
+}
+
 .certif {
   display: grid;
   grid-template-columns: 120px 1fr;
@@ -204,6 +226,11 @@ header {
 .footer .about {
   order: 2;
   text-align: center;
+  border-left: 2px solid rgb(210, 206, 206);
+  border-right: 2px solid rgb(210, 206, 206);
+  padding-left: 4rem;
+  padding-right: 4rem;
+  margin-bottom: 4rem;
 }
 .footer .about .logo {
   padding-left: 9rem;
@@ -397,12 +424,12 @@ header {
 }
 .footer .utility-pages {
   order: 3;
+  color: #274C5B;
 }
 .footer .utility-pages ul li {
   list-style: none;
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
-  color: #274C5B;
   padding-top: 2rem;
 }
 .footer .utility-pages ul li:last-child {
@@ -410,6 +437,7 @@ header {
 }
 .footer .utility-pages ul li a {
   text-decoration: none;
+  color: inherit;
 }
 .footer .utility-pages ul li a:hover {
   color: #191b1c;
@@ -417,6 +445,11 @@ header {
 .footer .about {
   order: 2;
   text-align: center;
+  border-left: 2px solid rgb(210, 206, 206);
+  border-right: 2px solid rgb(210, 206, 206);
+  padding-left: 4rem;
+  padding-right: 4rem;
+  margin-bottom: 5rem;
 }
 .footer .about .logo {
   padding-left: 9rem;

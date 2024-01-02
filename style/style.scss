@@ -130,26 +130,32 @@ grid-template-rows: repeat (3, 1fr);
        }
 .utility-pages{
     order: 3;
-}
+    color: $colordark;
+    }
 .utility-pages ul li {
     list-style: none;
     font-family: $fonttext;
     font-size: 18px;
-    color: $colordark;
     padding-top: 2rem;
     &:last-child {
         padding-bottom: 5rem;
     }
     a {
         text-decoration: none;
+        color:inherit;
         &:hover {
             color: #191b1c;
         }
     } 
 }
-.about{
+.about {
     order: 2;
     text-align: center;
+    border-left: 2px solid rgb(210, 206, 206);
+    border-right: 2px solid rgb(210, 206, 206);
+    padding-left: 4rem;
+    padding-right: 4rem;
+   margin-bottom: 5rem;
    }
 .about .logo {
     padding-left: 9rem;
