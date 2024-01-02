@@ -1,0 +1,215 @@
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url('assets\fonts\Roboto-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src: url('assets\fonts\Yellowtail-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Yellowtail-Regular';
+    src: url('assets\fonts\Yellowtail-Regular.ttf') format('truetype');
+}
+
+@import url('https://fonts.googleapis.com/css2? Family= Roboto:ital,wght@0,400;0,500;0,700;1,400 & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url('../fonts/Roboto-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Yellowtail-Regular';
+    src: url('../fonts/Yellowtail-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 69px 162px 69px 162px;
+    }
+    .logo {
+        font-family: $font;
+        font-size: 38px;
+        font-weight: bolder;
+        color: $colordark;
+        display: flex;
+        gap: 1rem;
+    }
+    .nav {
+        display: flex;
+        gap: 25px;
+        padding-left: 170px;
+    }
+    .nav a {
+        text-decoration: none; 
+        color: $colordark;
+        font-family:  $font;
+        font-size: 20px;
+        font-weight: bolder;
+    }
+    .search {
+        padding-left: 150px;
+    }
+    .banner {
+        background-color:#F1EFF0;
+        background-image: url(/assets/images/bannerback.png);
+        background-size: cover;
+        display: grid;
+        grid-template-columns: repeat (2, 1fr);
+        grid-template-rows: 1fr;
+    }
+      .slogan {
+    width: 800px;
+    display: grid;
+    grid-column: 1/2;
+    grid-template-rows: repeat (3, 1fr);
+        align-content: center;
+        padding-left: 260px;
+        
+    }
+    .bannerpic {
+        display: grid;
+    grid-column: 2/3;
+    }
+    
+    .knop {
+        padding-top: 23px;
+    }
+    
+    .centralpics {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 35px;
+        margin-top: 150px;
+    }
+    .mission {
+        display: grid;
+        grid-template-columns: repeat (2, 1fr);
+        grid-template-rows: 1fr;
+        background-color: #F9F8F8;
+        margin-top: 190px;
+         }
+        .description {
+            width: 705px;
+            display: grid;
+            grid-column: 2/3;
+       grid-template-rows: repeat (3, 1fr);
+        align-content: center;
+        gap: 15px;
+       }
+       .cont-text  {
+        font-family: $fonttext;
+        font-size: 18px;
+        display: flex;
+        padding-top: 10px;
+       }
+       .organicpromo {
+        display: grid;
+        grid-template-columns: 120px 1fr;
+        grid-template-rows: repeat (3, 1fr);
+       }
+       .promotext {
+        display: grid;
+        grid-column: 2/3;
+        width: 444px;
+       
+       }
+    .certif {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    grid-template-rows: repeat (3, 1fr);
+    }
+    
+    /* Footer Styles */
+    .footer {
+        margin-top: 110px;
+        &__title {
+            font-family: $fonttext;
+            color: $colordark;
+           }
+           .container {
+            display: inline-flex;
+            width: 100vw;
+            gap: 10rem;
+           }
+    .utility-pages{
+        order: 3;
+    }
+    .utility-pages ul li {
+        list-style: none;
+        font-family: $fonttext;
+        font-size: 18px;
+        color: $colordark;
+        padding-top: 2rem;
+        &:last-child {
+            padding-bottom: 5rem;
+        }
+        a {
+            text-decoration: none;
+            &:hover {
+                color: #191b1c;
+            }
+        } 
+    }
+    .about{
+        order: 2;
+        text-align: center;
+       }
+    .about .logo {
+        padding-left: 9rem;
+      }
+      .about .follow {
+        display: flex;
+        padding-top: 3rem;
+        gap: 1rem;
+        padding-left: 7rem;
+        }
+      .about.follow img {
+        width: 20px;
+        height: 20px;
+    }
+    .contact-us {
+        font-family: $fonttext;
+        font-size: 18px;
+        color: $colordark;
+        text-align: end;
+        display: block;
+        padding-left: 15rem;
+        a {
+            text-decoration: none;
+            color:inherit;
+            &:hover {
+                color: #191b1c;
+            }
+        }
+        .mail {
+            padding-bottom: 2rem;
+            padding-top: 2rem;
+        }
+        .phone {
+            padding-bottom: 2rem;
+        }
+    }
+    }
+    .legal {
+        display:flex;
+       justify-content: center;
+        font-family: $fonttext;
+        color: $colordark;
+        font-size: 18px;
+        border-top: 2px solid rgb(210, 206, 206);
+        padding-top: 1rem;
+    }
