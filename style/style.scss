@@ -33,6 +33,7 @@ header {
 }
 .search {
     padding-left: 150px;
+    display: flex;
 }
 .searchfield {
     width:375px;
@@ -41,7 +42,6 @@ header {
     width:160px;
 }
 .banner {
-    background-color:#F1EFF0;
     background-image: url(/assets/images/bannerback.png);
     background-size: cover;
     display: grid;
@@ -60,6 +60,7 @@ grid-template-rows: repeat (3, 1fr);
 .bannerpic {
     display: grid;
 grid-column: 2/3;
+opacity: 0.9;
 }
 
 .knop {
@@ -202,3 +203,137 @@ grid-template-rows: repeat (3, 1fr);
     border-top: 2px solid rgb(210, 206, 206);
     padding-top: 1rem;
 }
+
+@media screen and (max-width: 767px)
+{
+    .bannerpic,
+   .missionpic,
+   .utility-pages { display: none;
+   }
+   header {
+    display: block;
+    padding: 2rem;
+    .nav,
+    .search {
+        padding-left: 0;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        gap: 5rem;
+    }
+    .searchfield {
+        width:36vw;
+    }
+    .cartpic {
+        width:15vw;
+    }
+   }
+   .banner {
+    margin-top: 0;
+    .slogan { 
+        padding: 2rem;
+        .title {
+            width: 70%;
+            h1 {
+                font-size: 7vw;    
+            }
+        }
+}
+   }
+   .centralpics {
+    margin: 1rem;
+    display: block;
+    padding: 0;
+   }
+   .mission { 
+    margin-top: 2rem;
+    padding: 2rem;
+    .description {
+        width: 80%;
+    h2 {
+        font-size: 7vw;
+    }
+.cont-text {
+    font-size: 2vw;
+        }
+            }
+}
+.footer {
+.contact-us {
+    padding-left: 7rem;  
+}
+.about {
+    text-align:start;
+    align-items: start;
+    border-right: none;
+    padding-left: 7rem;
+     .follow,
+     .logo {
+        padding-left: 0;
+        }
+}
+}
+.legal {
+    border: none;
+    padding-left: 2rem;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px)
+{
+    header {
+        padding: 20px;
+        .nav {
+            padding-left: 40px;
+        }
+        .search {
+        padding-left: 40px;
+        .searchfield {
+            width:20vw;
+        }
+        .cartpic {
+            width: 9vw;
+        }
+    }
+    }
+    .banner {
+        display:flex;
+}
+.centralpics {
+    margin-top: 3rem;
+    margin-left: 40rem;
+   }
+.mission { 
+    margin-top: 3rem;
+    background-size: 100vw;
+    display: flex;
+    padding-left: 4rem;
+    .missionpic { display: none;
+    }
+    .description {
+        width: 100vw;
+    }
+    
+}
+.footer {
+    .utility-pages { display: none;
+    }
+    .contact-us {
+        padding-left: 5rem;  
+        width: 50%;
+    }
+    .about {
+        text-align:start;
+        align-items: start;
+        border-right: none;
+        padding-left: 5rem;
+         .follow,
+         .logo {
+            padding-left: 0;
+            }
+    }
+    }
+    .legal {
+        border: none;
+        padding-left: 2rem;
+    }
+    }
